@@ -1,11 +1,12 @@
 import React from "react";
+import { NavigationContainer } from '@react-navigation/native';
 import {View, Text} from 'react-native'
 
 const index = () => {
     return (
-        <View>
+        <NavigationContainer>
             <Text>Hallo selamat datang</Text>
-        </View>
+        </NavigationContainer>
     )
 }
 
